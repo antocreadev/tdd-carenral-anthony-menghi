@@ -1,15 +1,11 @@
 <div style="display: flex; justify-content: center; gap: 10px;">
 
+![coverage](img/coverage.svg "coverage").
+![duplicated_lines](img/duplicated_lines.svg "duplicated_lines").
+![lines_of_codes](img/lines_of_codes.svg "lines_of_codes").
+![quality_gate](img/quality_gate.svg "quality_gate").
+![security_hotspots](img/security_hotspots.svg "security_hotspots").
 
-[![Coverage](http://localhost:9000/api/project_badges/measure?project=carental&metric=coverage&token=sqb_a3d8d9ded14fbd1d05f282b959fffd02231cf099)](http://localhost:9000/dashboard?id=carental)
-
-[![Duplicated Lines (%)](http://localhost:9000/api/project_badges/measure?project=carental&metric=duplicated_lines_density&token=sqb_a3d8d9ded14fbd1d05f282b959fffd02231cf099)](http://localhost:9000/dashboard?id=carental)
-
-[![Lines of Code](http://localhost:9000/api/project_badges/measure?project=carental&metric=ncloc&token=sqb_a3d8d9ded14fbd1d05f282b959fffd02231cf099)](http://localhost:9000/dashboard?id=carental)
-
-[![Quality Gate Status](http://localhost:9000/api/project_badges/measure?project=carental&metric=alert_status&token=sqb_a3d8d9ded14fbd1d05f282b959fffd02231cf099)](http://localhost:9000/dashboard?id=carental)
-
-[![Security Hotspots](http://localhost:9000/api/project_badges/measure?project=carental&metric=security_hotspots&token=sqb_a3d8d9ded14fbd1d05f282b959fffd02231cf099)](http://localhost:9000/dashboard?id=carental)
 </div>
 # Anthony Menghi - 20212098 - M1DWM - Univeristé de Corse
 
