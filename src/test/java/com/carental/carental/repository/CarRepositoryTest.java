@@ -1,4 +1,5 @@
 package com.carental.carental.repository;
+import java.util.List;
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -41,4 +42,27 @@ class CarRepositoryTest {
       assertTrue(result.isPresent());
       assertFalse(result.get().isAvailable());
   }
+
+  @Test
+void testAddCarWhenUnique() {
+    Car car = new Car("XYZ123", "Honda", true);
+    carRepository.addCar(car);
+    Optional<Car> result = carRepository.findByRegistrationNumber("XYZ123");
+
+    assertTrue(result.isPresent());
+    assertEquals("Honda", result.get().getModel());
+}
+
+  @Test
+  void testFindByModel() {
+      carRepository.addCar(new Car("REG1", "BMW", true));
+      carRepository.addCar(new Car("REG2", "BMW", false));
+      carRepository.addCar(new Car("REG3", "Toyota", true));
+
+      List<Car> results = carRepository.findByModel("BMW");
+
+      assertEquals(2, results.size());
+      assertTrue(results.stream().allMatch(car -> car.getModel().equals("BMW")));
+  }
+
 }

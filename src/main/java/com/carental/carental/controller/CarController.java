@@ -40,8 +40,8 @@ public class CarController {
     }
 
     @GetMapping("/search")
-public List<Car> searchByModel(@RequestParam String model) {
+    public List<Car> searchByModel(@RequestParam String model) {
     return carRentalService.searchByModel(model);
-}
+    }
 
 }
