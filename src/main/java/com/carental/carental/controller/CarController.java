@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.carental.carental.domain.Car;
@@ -37,5 +38,10 @@ public class CarController {
     public boolean addCar(@RequestBody Car car) {
     return carRentalService.addCar(car);
     }
+
+    @GetMapping("/search")
+public List<Car> searchByModel(@RequestParam String model) {
+    return carRentalService.searchByModel(model);
+}
 
 }
