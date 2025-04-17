@@ -16,7 +16,7 @@ import java.util.List;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
-
+import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.*;
 
 
@@ -55,4 +55,34 @@ class CarControllerTest {
         mockMvc.perform(post("/cars/return/123ABC"))
             .andExpect(status().isOk());
     }
+    @Test
+void testAddCarEndpoint() throws Exception {
+    Car newCar = new Car("ABC789", "Mazda", true);
+    when(carRentalService.addCar(any(Car.class))).thenReturn(true);
+
+    mockMvc.perform(post("/cars/add")
+            .contentType("application/json")
+            .content("""
+                {
+                    "registrationNumber": "ABC789",
+                    "model": "Mazda",
+                    "available": true
+                }
+            """))
+        .andExpect(status().isOk())
+        .andExpect(content().string("true"));
+}
+
+@Test
+void testSearchByModelEndpoint() throws Exception {
+    List<Car> cars = List.of(new Car("REG1", "Peugeot", true));
+    when(carRentalService.searchByModel("Peugeot")).thenReturn(cars);
+
+    mockMvc.perform(get("/cars/search")
+            .param("model", "Peugeot"))
+        .andExpect(status().isOk())
+        .andExpect(jsonPath("$[0].registrationNumber").value("REG1"))
+        .andExpect(jsonPath("$[0].model").value("Peugeot"));
+}
+
 }
