@@ -37,7 +37,7 @@ public class CarRentalService {
             carRepository.updateCar(c);
         });
     }
-    
+
     public boolean addCar(Car car) {
       Optional<Car> existing = carRepository.findByRegistrationNumber(car.getRegistrationNumber());
       if (existing.isEmpty()) {
@@ -46,5 +46,10 @@ public class CarRentalService {
       }
       return false;
   }
+
+  public List<Car> searchByModel(String model) {
+    return carRepository.findByModel(model);
+}
+
   
 }
