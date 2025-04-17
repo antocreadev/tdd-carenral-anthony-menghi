@@ -1,10 +1,10 @@
 <div style="display: flex; justify-content: center; gap: 10px;">
 
-![coverage](img/coverage.svg "coverage").
-![duplicated_lines](img/duplicated_lines.svg "duplicated_lines").
-![lines_of_codes](img/lines_of_codes.svg "lines_of_codes").
+![coverage](img/coverage.svg "coverage")
+![duplicated_lines](img/duplicated_lines.svg "duplicated_lines")
+![lines_of_codes](img/lines_of_codes.svg "lines_of_codes")
 ![quality_gate](img/quality_gate.svg "quality_gate").
-![security_hotspots](img/security_hotspots.svg "security_hotspots").
+![security_hotspots](img/security_hotspots.svg "security_hotspots")
 
 </div>
 # Anthony Menghi - 20212098 - M1DWM - Univeristé de Corse
