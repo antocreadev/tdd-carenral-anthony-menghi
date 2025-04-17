@@ -29,4 +29,11 @@ public class CarRepository {
     public void updateCar(Car car) {
         cars.replaceAll(c -> c.getRegistrationNumber().equals(car.getRegistrationNumber()) ? car : c);
     }
+
+    public List<Car> findByModel(String model) {
+      return cars.stream()
+              .filter(car -> car.getModel().equalsIgnoreCase(model))
+              .toList();
+  }
+  
 }
