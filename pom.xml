@@ -93,20 +93,6 @@
                     </execution>
                 </executions>
             </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.1.2</version>
-                <configuration>
-                    <includes>
-                        <include>**/RunCucumberTest.java</include>
-                    </includes>
-                    <testFailureIgnore>false</testFailureIgnore>
-                    <systemPropertyVariables>
-                        <cucumber.plugin>pretty, json:target/cucumber.json, junit:target/cucumber.xml</cucumber.plugin>
-                    </systemPropertyVariables>
-                </configuration>
-            </plugin>
         </plugins>
     </build>
 
