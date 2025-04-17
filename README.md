@@ -3,7 +3,7 @@
 ![coverage](img/coverage.svg "coverage")
 ![duplicated_lines](img/duplicated_lines.svg "duplicated_lines")
 ![lines_of_codes](img/lines_of_codes.svg "lines_of_codes")
-![quality_gate](img/quality_gate.svg "quality_gate").
+![quality_gate](img/quality_gate.svg "quality_gate")
 ![security_hotspots](img/security_hotspots.svg "security_hotspots")
 
 </div>
