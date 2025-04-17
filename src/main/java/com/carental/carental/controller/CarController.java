@@ -2,6 +2,9 @@ package com.carental.carental.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import com.carental.carental.domain.Car;
+import com.carental.carental.service.CarRentalService;
+
 import java.util.List;
 
 @RestController
