@@ -1,0 +1,676 @@
+2025-04-17 13:50:48,629 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2025-04-17 13:50:48,645 INFO o.a.j.JMeter: Loading user properties from: /opt/homebrew/Cellar/jmeter/5.6.3/libexec/bin/user.properties
+2025-04-17 13:50:48,646 INFO o.a.j.JMeter: Loading system properties from: /opt/homebrew/Cellar/jmeter/5.6.3/libexec/bin/system.properties
+2025-04-17 13:50:48,649 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2025-04-17 13:50:48,649 INFO o.a.j.JMeter: Version 5.6.3
+2025-04-17 13:50:48,649 INFO o.a.j.JMeter: java.version=21.0.7
+2025-04-17 13:50:48,649 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2025-04-17 13:50:48,649 INFO o.a.j.JMeter: os.name=Mac OS X
+2025-04-17 13:50:48,649 INFO o.a.j.JMeter: os.arch=aarch64
+2025-04-17 13:50:48,649 INFO o.a.j.JMeter: os.version=15.2
+2025-04-17 13:50:48,649 INFO o.a.j.JMeter: file.encoding=UTF-8
+2025-04-17 13:50:48,649 INFO o.a.j.JMeter: java.awt.headless=true
+2025-04-17 13:50:48,649 INFO o.a.j.JMeter: Max memory     =1073741824
+2025-04-17 13:50:48,649 INFO o.a.j.JMeter: Available Processors =8
+2025-04-17 13:50:48,655 INFO o.a.j.JMeter: Default Locale=English (EN)
+2025-04-17 13:50:48,656 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2025-04-17 13:50:48,656 INFO o.a.j.JMeter: JMeterHome=/opt/homebrew/Cellar/jmeter/5.6.3/libexec
+2025-04-17 13:50:48,656 INFO o.a.j.JMeter: user.dir  =/Users/antocreadev/Developer/carental
+2025-04-17 13:50:48,656 INFO o.a.j.JMeter: PWD       =/Users/antocreadev/Developer/carental
+2025-04-17 13:50:48,657 INFO o.a.j.JMeter: IP: 127.0.0.1 Name: antocreadevs-MacBook-Air.local FullName: localhost
+2025-04-17 13:50:48,665 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/Users/antocreadev/Developer/carental/jm-report'
+2025-04-17 13:50:48,668 INFO o.a.j.s.FileServer: Default base='/Users/antocreadev/Developer/carental'
+2025-04-17 13:50:48,669 INFO o.a.j.s.FileServer: Set new base='/Users/antocreadev/Developer/carental'
+2025-04-17 13:50:48,768 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2025-04-17 13:50:48,793 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2025-04-17 13:50:48,794 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2025-04-17 13:50:48,796 INFO o.a.j.s.SaveService: Loading file: jmeter.jmx
+2025-04-17 13:50:48,834 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-04-17 13:50:48,834 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-04-17 13:50:48,834 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-04-17 13:50:48,834 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-04-17 13:50:48,834 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2025-04-17 13:50:48,834 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2025-04-17 13:50:48,853 INFO o.a.j.JMeter: Creating summariser <summary>
+2025-04-17 13:50:48,855 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2025-04-17 13:50:48,855 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: results.jtl
+2025-04-17 13:50:48,856 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /opt/homebrew/Cellar/jmeter/5.6.3/libexec/bin/reportgenerator.properties
+2025-04-17 13:50:48,856 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2025-04-17 13:50:48,858 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2025-04-17 13:50:48,859 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2025-04-17 13:50:48,859 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2025-04-17 13:50:48,859 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2025-04-17 13:50:48,859 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2025-04-17 13:50:48,859 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2025-04-17 13:50:48,859 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2025-04-17 13:50:48,859 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2025-04-17 13:50:48,859 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2025-04-17 13:50:48,861 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2025-04-17 13:50:48,862 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-04-17 13:50:48,862 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2025-04-17 13:50:48,862 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2025-04-17 13:50:48,862 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2025-04-17 13:50:48,862 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2025-04-17 13:50:48,862 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-04-17 13:50:48,862 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-04-17 13:50:48,862 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-04-17 13:50:48,862 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-04-17 13:50:48,863 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2025-04-17 13:50:48,863 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2025-04-17 13:50:48,863 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2025-04-17 13:50:48,863 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2025-04-17 13:50:48,863 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2025-04-17 13:50:48,863 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2025-04-17 13:50:48,871 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2025-04-17 13:50:48,871 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-04-17 13:50:48,871 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-04-17 13:50:48,874 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2025-04-17 13:50:48,874 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2025-04-17 13:50:48,909 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-04-17 13:50:48,971 INFO o.a.j.JMeter: Running test (1744890648971)
+2025-04-17 13:50:48,981 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Scenario 1 - Get All Cars
+2025-04-17 13:50:48,981 INFO o.a.j.e.StandardJMeterEngine: Starting 100 threads for group Scenario 1 - Get All Cars.
+2025-04-17 13:50:48,981 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-04-17 13:50:48,981 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=100 ramp-up=10 delayedStart=false
+2025-04-17 13:50:48,985 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-1
+2025-04-17 13:50:48,996 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = antocreadevs-MacBook-Air.local
+2025-04-17 13:50:48,999 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2025-04-17 13:50:48,999 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Scenario 2 - Rent Cars
+2025-04-17 13:50:48,999 INFO o.a.j.e.StandardJMeterEngine: Starting 50 threads for group Scenario 2 - Rent Cars.
+2025-04-17 13:50:48,999 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-04-17 13:50:48,999 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=50 ramp-up=5 delayedStart=false
+2025-04-17 13:50:49,000 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2025-04-17 13:50:49,000 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-1
+2025-04-17 13:50:49,000 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2025-04-17 13:50:49,000 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2025-04-17 13:50:49,000 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2025-04-17 13:50:49,001 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2025-04-17 13:50:49,008 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2025-04-17 13:50:49,008 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : Scenario 3 - Return Cars
+2025-04-17 13:50:49,008 INFO o.a.j.e.StandardJMeterEngine: Starting 30 threads for group Scenario 3 - Return Cars.
+2025-04-17 13:50:49,008 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-04-17 13:50:49,008 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=30 ramp-up=3 delayedStart=false
+2025-04-17 13:50:49,008 INFO o.a.j.t.JMeterThread: Thread started: Scenario 3 - Return Cars 3-1
+2025-04-17 13:50:49,012 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2025-04-17 13:50:49,012 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2025-04-17 13:50:49,037 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 3 - Return Cars 3-1
+2025-04-17 13:50:49,037 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 3 - Return Cars 3-1
+2025-04-17 13:50:49,037 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-1
+2025-04-17 13:50:49,037 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-1
+2025-04-17 13:50:49,066 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-1
+2025-04-17 13:50:49,066 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-1
+2025-04-17 13:50:49,088 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-2
+2025-04-17 13:50:49,094 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-2
+2025-04-17 13:50:49,094 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-2
+2025-04-17 13:50:49,105 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-2
+2025-04-17 13:50:49,106 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-2
+2025-04-17 13:50:49,106 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-2
+2025-04-17 13:50:49,110 INFO o.a.j.t.JMeterThread: Thread started: Scenario 3 - Return Cars 3-2
+2025-04-17 13:50:49,112 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 3 - Return Cars 3-2
+2025-04-17 13:50:49,112 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 3 - Return Cars 3-2
+2025-04-17 13:50:49,182 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-3
+2025-04-17 13:50:49,205 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-3
+2025-04-17 13:50:49,220 INFO o.a.j.t.JMeterThread: Thread started: Scenario 3 - Return Cars 3-3
+2025-04-17 13:50:49,262 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 3 - Return Cars 3-3
+2025-04-17 13:50:49,263 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 3 - Return Cars 3-3
+2025-04-17 13:50:49,263 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-3
+2025-04-17 13:50:49,263 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-3
+2025-04-17 13:50:49,266 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-3
+2025-04-17 13:50:49,266 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-3
+2025-04-17 13:50:49,286 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-4
+2025-04-17 13:50:49,302 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-4
+2025-04-17 13:50:49,302 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-4
+2025-04-17 13:50:49,302 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-4
+2025-04-17 13:50:49,304 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-4
+2025-04-17 13:50:49,304 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-4
+2025-04-17 13:50:49,310 INFO o.a.j.t.JMeterThread: Thread started: Scenario 3 - Return Cars 3-4
+2025-04-17 13:50:49,313 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 3 - Return Cars 3-4
+2025-04-17 13:50:49,313 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 3 - Return Cars 3-4
+2025-04-17 13:50:49,387 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-5
+2025-04-17 13:50:49,392 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-5
+2025-04-17 13:50:49,392 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-5
+2025-04-17 13:50:49,404 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-5
+2025-04-17 13:50:49,406 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-5
+2025-04-17 13:50:49,406 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-5
+2025-04-17 13:50:49,414 INFO o.a.j.t.JMeterThread: Thread started: Scenario 3 - Return Cars 3-5
+2025-04-17 13:50:49,416 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 3 - Return Cars 3-5
+2025-04-17 13:50:49,416 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 3 - Return Cars 3-5
+2025-04-17 13:50:49,483 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-6
+2025-04-17 13:50:49,495 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-6
+2025-04-17 13:50:49,495 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-6
+2025-04-17 13:50:49,504 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-6
+2025-04-17 13:50:49,506 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-6
+2025-04-17 13:50:49,506 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-6
+2025-04-17 13:50:49,508 INFO o.a.j.t.JMeterThread: Thread started: Scenario 3 - Return Cars 3-6
+2025-04-17 13:50:49,510 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 3 - Return Cars 3-6
+2025-04-17 13:50:49,510 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 3 - Return Cars 3-6
+2025-04-17 13:50:49,586 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-7
+2025-04-17 13:50:49,593 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-7
+2025-04-17 13:50:49,593 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-7
+2025-04-17 13:50:49,603 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-7
+2025-04-17 13:50:49,606 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-7
+2025-04-17 13:50:49,606 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-7
+2025-04-17 13:50:49,613 INFO o.a.j.t.JMeterThread: Thread started: Scenario 3 - Return Cars 3-7
+2025-04-17 13:50:49,614 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 3 - Return Cars 3-7
+2025-04-17 13:50:49,614 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 3 - Return Cars 3-7
+2025-04-17 13:50:49,686 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-8
+2025-04-17 13:50:49,694 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-8
+2025-04-17 13:50:49,694 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-8
+2025-04-17 13:50:49,704 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-8
+2025-04-17 13:50:49,706 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-8
+2025-04-17 13:50:49,706 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-8
+2025-04-17 13:50:49,711 INFO o.a.j.t.JMeterThread: Thread started: Scenario 3 - Return Cars 3-8
+2025-04-17 13:50:49,712 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 3 - Return Cars 3-8
+2025-04-17 13:50:49,712 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 3 - Return Cars 3-8
+2025-04-17 13:50:49,786 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-9
+2025-04-17 13:50:49,794 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-9
+2025-04-17 13:50:49,794 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-9
+2025-04-17 13:50:49,804 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-9
+2025-04-17 13:50:49,807 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-9
+2025-04-17 13:50:49,807 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-9
+2025-04-17 13:50:49,813 INFO o.a.j.t.JMeterThread: Thread started: Scenario 3 - Return Cars 3-9
+2025-04-17 13:50:49,815 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 3 - Return Cars 3-9
+2025-04-17 13:50:49,815 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 3 - Return Cars 3-9
+2025-04-17 13:50:49,884 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-10
+2025-04-17 13:50:49,896 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-10
+2025-04-17 13:50:49,897 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-10
+2025-04-17 13:50:49,901 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-10
+2025-04-17 13:50:49,903 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-10
+2025-04-17 13:50:49,903 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-10
+2025-04-17 13:50:49,910 INFO o.a.j.t.JMeterThread: Thread started: Scenario 3 - Return Cars 3-10
+2025-04-17 13:50:49,912 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 3 - Return Cars 3-10
+2025-04-17 13:50:49,912 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 3 - Return Cars 3-10
+2025-04-17 13:50:49,987 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-11
+2025-04-17 13:50:49,997 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-11
+2025-04-17 13:50:49,998 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-11
+2025-04-17 13:50:50,003 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-11
+2025-04-17 13:50:50,005 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-11
+2025-04-17 13:50:50,005 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-11
+2025-04-17 13:50:50,009 INFO o.a.j.t.JMeterThread: Thread started: Scenario 3 - Return Cars 3-11
+2025-04-17 13:50:50,011 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 3 - Return Cars 3-11
+2025-04-17 13:50:50,011 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 3 - Return Cars 3-11
+2025-04-17 13:50:50,086 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-12
+2025-04-17 13:50:50,101 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-12
+2025-04-17 13:50:50,102 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-12
+2025-04-17 13:50:50,106 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-12
+2025-04-17 13:50:50,108 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-12
+2025-04-17 13:50:50,108 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-12
+2025-04-17 13:50:50,111 INFO o.a.j.t.JMeterThread: Thread started: Scenario 3 - Return Cars 3-12
+2025-04-17 13:50:50,112 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 3 - Return Cars 3-12
+2025-04-17 13:50:50,112 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 3 - Return Cars 3-12
+2025-04-17 13:50:50,186 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-13
+2025-04-17 13:50:50,198 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-13
+2025-04-17 13:50:50,198 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-13
+2025-04-17 13:50:50,204 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-13
+2025-04-17 13:50:50,206 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-13
+2025-04-17 13:50:50,206 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-13
+2025-04-17 13:50:50,209 INFO o.a.j.t.JMeterThread: Thread started: Scenario 3 - Return Cars 3-13
+2025-04-17 13:50:50,210 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 3 - Return Cars 3-13
+2025-04-17 13:50:50,210 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 3 - Return Cars 3-13
+2025-04-17 13:50:50,286 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-14
+2025-04-17 13:50:50,292 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-14
+2025-04-17 13:50:50,292 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-14
+2025-04-17 13:50:50,304 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-14
+2025-04-17 13:50:50,306 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-14
+2025-04-17 13:50:50,306 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-14
+2025-04-17 13:50:50,313 INFO o.a.j.t.JMeterThread: Thread started: Scenario 3 - Return Cars 3-14
+2025-04-17 13:50:50,314 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 3 - Return Cars 3-14
+2025-04-17 13:50:50,314 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 3 - Return Cars 3-14
+2025-04-17 13:50:50,387 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-15
+2025-04-17 13:50:50,395 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-15
+2025-04-17 13:50:50,395 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-15
+2025-04-17 13:50:50,404 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-15
+2025-04-17 13:50:50,406 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-15
+2025-04-17 13:50:50,406 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-15
+2025-04-17 13:50:50,413 INFO o.a.j.t.JMeterThread: Thread started: Scenario 3 - Return Cars 3-15
+2025-04-17 13:50:50,414 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 3 - Return Cars 3-15
+2025-04-17 13:50:50,415 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 3 - Return Cars 3-15
+2025-04-17 13:50:50,487 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-16
+2025-04-17 13:50:50,505 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-16
+2025-04-17 13:50:50,509 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-16
+2025-04-17 13:50:50,509 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-16
+2025-04-17 13:50:50,510 INFO o.a.j.t.JMeterThread: Thread started: Scenario 3 - Return Cars 3-16
+2025-04-17 13:50:50,512 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 3 - Return Cars 3-16
+2025-04-17 13:50:50,512 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 3 - Return Cars 3-16
+2025-04-17 13:50:50,516 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-16
+2025-04-17 13:50:50,516 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-16
+2025-04-17 13:50:50,586 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-17
+2025-04-17 13:50:50,596 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-17
+2025-04-17 13:50:50,596 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-17
+2025-04-17 13:50:50,604 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-17
+2025-04-17 13:50:50,606 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-17
+2025-04-17 13:50:50,606 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-17
+2025-04-17 13:50:50,609 INFO o.a.j.t.JMeterThread: Thread started: Scenario 3 - Return Cars 3-17
+2025-04-17 13:50:50,611 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 3 - Return Cars 3-17
+2025-04-17 13:50:50,611 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 3 - Return Cars 3-17
+2025-04-17 13:50:50,683 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-18
+2025-04-17 13:50:50,693 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-18
+2025-04-17 13:50:50,693 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-18
+2025-04-17 13:50:50,702 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-18
+2025-04-17 13:50:50,705 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-18
+2025-04-17 13:50:50,705 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-18
+2025-04-17 13:50:50,710 INFO o.a.j.t.JMeterThread: Thread started: Scenario 3 - Return Cars 3-18
+2025-04-17 13:50:50,711 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 3 - Return Cars 3-18
+2025-04-17 13:50:50,711 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 3 - Return Cars 3-18
+2025-04-17 13:50:50,784 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-19
+2025-04-17 13:50:50,793 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-19
+2025-04-17 13:50:50,793 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-19
+2025-04-17 13:50:50,805 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-19
+2025-04-17 13:50:50,806 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-19
+2025-04-17 13:50:50,806 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-19
+2025-04-17 13:50:50,811 INFO o.a.j.t.JMeterThread: Thread started: Scenario 3 - Return Cars 3-19
+2025-04-17 13:50:50,813 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 3 - Return Cars 3-19
+2025-04-17 13:50:50,813 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 3 - Return Cars 3-19
+2025-04-17 13:50:50,886 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-20
+2025-04-17 13:50:50,895 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-20
+2025-04-17 13:50:50,895 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-20
+2025-04-17 13:50:50,905 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-20
+2025-04-17 13:50:50,906 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-20
+2025-04-17 13:50:50,906 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-20
+2025-04-17 13:50:50,913 INFO o.a.j.t.JMeterThread: Thread started: Scenario 3 - Return Cars 3-20
+2025-04-17 13:50:50,914 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 3 - Return Cars 3-20
+2025-04-17 13:50:50,915 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 3 - Return Cars 3-20
+2025-04-17 13:50:50,984 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-21
+2025-04-17 13:50:50,997 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-21
+2025-04-17 13:50:50,997 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-21
+2025-04-17 13:50:51,000 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-21
+2025-04-17 13:50:51,001 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-21
+2025-04-17 13:50:51,001 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-21
+2025-04-17 13:50:51,013 INFO o.a.j.t.JMeterThread: Thread started: Scenario 3 - Return Cars 3-21
+2025-04-17 13:50:51,015 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 3 - Return Cars 3-21
+2025-04-17 13:50:51,015 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 3 - Return Cars 3-21
+2025-04-17 13:50:51,086 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-22
+2025-04-17 13:50:51,091 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-22
+2025-04-17 13:50:51,091 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-22
+2025-04-17 13:50:51,101 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-22
+2025-04-17 13:50:51,102 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-22
+2025-04-17 13:50:51,102 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-22
+2025-04-17 13:50:51,113 INFO o.a.j.t.JMeterThread: Thread started: Scenario 3 - Return Cars 3-22
+2025-04-17 13:50:51,115 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 3 - Return Cars 3-22
+2025-04-17 13:50:51,115 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 3 - Return Cars 3-22
+2025-04-17 13:50:51,186 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-23
+2025-04-17 13:50:51,194 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-23
+2025-04-17 13:50:51,194 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-23
+2025-04-17 13:50:51,205 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-23
+2025-04-17 13:50:51,206 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-23
+2025-04-17 13:50:51,206 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-23
+2025-04-17 13:50:51,213 INFO o.a.j.t.JMeterThread: Thread started: Scenario 3 - Return Cars 3-23
+2025-04-17 13:50:51,213 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 3 - Return Cars 3-23
+2025-04-17 13:50:51,213 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 3 - Return Cars 3-23
+2025-04-17 13:50:51,286 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-24
+2025-04-17 13:50:51,292 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-24
+2025-04-17 13:50:51,292 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-24
+2025-04-17 13:50:51,304 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-24
+2025-04-17 13:50:51,306 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-24
+2025-04-17 13:50:51,306 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-24
+2025-04-17 13:50:51,310 INFO o.a.j.t.JMeterThread: Thread started: Scenario 3 - Return Cars 3-24
+2025-04-17 13:50:51,311 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 3 - Return Cars 3-24
+2025-04-17 13:50:51,311 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 3 - Return Cars 3-24
+2025-04-17 13:50:51,386 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-25
+2025-04-17 13:50:51,395 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-25
+2025-04-17 13:50:51,395 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-25
+2025-04-17 13:50:51,406 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-25
+2025-04-17 13:50:51,408 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-25
+2025-04-17 13:50:51,408 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-25
+2025-04-17 13:50:51,413 INFO o.a.j.t.JMeterThread: Thread started: Scenario 3 - Return Cars 3-25
+2025-04-17 13:50:51,414 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 3 - Return Cars 3-25
+2025-04-17 13:50:51,414 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 3 - Return Cars 3-25
+2025-04-17 13:50:51,486 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-26
+2025-04-17 13:50:51,497 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-26
+2025-04-17 13:50:51,497 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-26
+2025-04-17 13:50:51,506 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-26
+2025-04-17 13:50:51,508 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-26
+2025-04-17 13:50:51,508 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-26
+2025-04-17 13:50:51,515 INFO o.a.j.t.JMeterThread: Thread started: Scenario 3 - Return Cars 3-26
+2025-04-17 13:50:51,516 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 3 - Return Cars 3-26
+2025-04-17 13:50:51,517 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 3 - Return Cars 3-26
+2025-04-17 13:50:51,587 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-27
+2025-04-17 13:50:51,595 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-27
+2025-04-17 13:50:51,595 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-27
+2025-04-17 13:50:51,604 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-27
+2025-04-17 13:50:51,607 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-27
+2025-04-17 13:50:51,607 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-27
+2025-04-17 13:50:51,614 INFO o.a.j.t.JMeterThread: Thread started: Scenario 3 - Return Cars 3-27
+2025-04-17 13:50:51,616 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 3 - Return Cars 3-27
+2025-04-17 13:50:51,616 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 3 - Return Cars 3-27
+2025-04-17 13:50:51,685 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-28
+2025-04-17 13:50:51,692 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-28
+2025-04-17 13:50:51,692 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-28
+2025-04-17 13:50:51,705 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-28
+2025-04-17 13:50:51,708 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-28
+2025-04-17 13:50:51,708 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-28
+2025-04-17 13:50:51,714 INFO o.a.j.t.JMeterThread: Thread started: Scenario 3 - Return Cars 3-28
+2025-04-17 13:50:51,715 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 3 - Return Cars 3-28
+2025-04-17 13:50:51,715 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 3 - Return Cars 3-28
+2025-04-17 13:50:51,786 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-29
+2025-04-17 13:50:51,790 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-29
+2025-04-17 13:50:51,790 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-29
+2025-04-17 13:50:51,805 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-29
+2025-04-17 13:50:51,806 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-29
+2025-04-17 13:50:51,806 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-29
+2025-04-17 13:50:51,811 INFO o.a.j.t.JMeterThread: Thread started: Scenario 3 - Return Cars 3-29
+2025-04-17 13:50:51,812 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 3 - Return Cars 3-29
+2025-04-17 13:50:51,812 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 3 - Return Cars 3-29
+2025-04-17 13:50:51,886 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-30
+2025-04-17 13:50:51,892 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-30
+2025-04-17 13:50:51,893 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-30
+2025-04-17 13:50:51,904 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-30
+2025-04-17 13:50:51,905 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-30
+2025-04-17 13:50:51,905 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-30
+2025-04-17 13:50:51,909 INFO o.a.j.t.JMeterThread: Thread started: Scenario 3 - Return Cars 3-30
+2025-04-17 13:50:51,910 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 3 - Return Cars 3-30
+2025-04-17 13:50:51,911 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 3 - Return Cars 3-30
+2025-04-17 13:50:51,986 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-31
+2025-04-17 13:50:51,996 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-31
+2025-04-17 13:50:51,996 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-31
+2025-04-17 13:50:52,004 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-31
+2025-04-17 13:50:52,006 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-31
+2025-04-17 13:50:52,006 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-31
+2025-04-17 13:50:52,087 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-32
+2025-04-17 13:50:52,095 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-32
+2025-04-17 13:50:52,096 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-32
+2025-04-17 13:50:52,103 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-32
+2025-04-17 13:50:52,105 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-32
+2025-04-17 13:50:52,105 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-32
+2025-04-17 13:50:52,187 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-33
+2025-04-17 13:50:52,201 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-33
+2025-04-17 13:50:52,201 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-33
+2025-04-17 13:50:52,204 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-33
+2025-04-17 13:50:52,206 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-33
+2025-04-17 13:50:52,206 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-33
+2025-04-17 13:50:52,287 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-34
+2025-04-17 13:50:52,298 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-34
+2025-04-17 13:50:52,298 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-34
+2025-04-17 13:50:52,305 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-34
+2025-04-17 13:50:52,307 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-34
+2025-04-17 13:50:52,307 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-34
+2025-04-17 13:50:52,384 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-35
+2025-04-17 13:50:52,396 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-35
+2025-04-17 13:50:52,396 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-35
+2025-04-17 13:50:52,405 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-35
+2025-04-17 13:50:52,406 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-35
+2025-04-17 13:50:52,406 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-35
+2025-04-17 13:50:52,483 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-36
+2025-04-17 13:50:52,490 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-36
+2025-04-17 13:50:52,490 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-36
+2025-04-17 13:50:52,504 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-36
+2025-04-17 13:50:52,506 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-36
+2025-04-17 13:50:52,506 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-36
+2025-04-17 13:50:52,587 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-37
+2025-04-17 13:50:52,598 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-37
+2025-04-17 13:50:52,598 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-37
+2025-04-17 13:50:52,603 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-37
+2025-04-17 13:50:52,604 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-37
+2025-04-17 13:50:52,604 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-37
+2025-04-17 13:50:52,686 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-38
+2025-04-17 13:50:52,691 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-38
+2025-04-17 13:50:52,691 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-38
+2025-04-17 13:50:52,705 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-38
+2025-04-17 13:50:52,706 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-38
+2025-04-17 13:50:52,706 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-38
+2025-04-17 13:50:52,786 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-39
+2025-04-17 13:50:52,790 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-39
+2025-04-17 13:50:52,790 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-39
+2025-04-17 13:50:52,802 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-39
+2025-04-17 13:50:52,803 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-39
+2025-04-17 13:50:52,803 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-39
+2025-04-17 13:50:52,886 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-40
+2025-04-17 13:50:52,893 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-40
+2025-04-17 13:50:52,893 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-40
+2025-04-17 13:50:52,901 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-40
+2025-04-17 13:50:52,903 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-40
+2025-04-17 13:50:52,903 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-40
+2025-04-17 13:50:52,987 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-41
+2025-04-17 13:50:52,991 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-41
+2025-04-17 13:50:52,991 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-41
+2025-04-17 13:50:53,004 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-41
+2025-04-17 13:50:53,005 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-41
+2025-04-17 13:50:53,005 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-41
+2025-04-17 13:50:53,084 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-42
+2025-04-17 13:50:53,088 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-42
+2025-04-17 13:50:53,088 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-42
+2025-04-17 13:50:53,105 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-42
+2025-04-17 13:50:53,106 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-42
+2025-04-17 13:50:53,106 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-42
+2025-04-17 13:50:53,185 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-43
+2025-04-17 13:50:53,191 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-43
+2025-04-17 13:50:53,191 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-43
+2025-04-17 13:50:53,204 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-43
+2025-04-17 13:50:53,205 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-43
+2025-04-17 13:50:53,205 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-43
+2025-04-17 13:50:53,286 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-44
+2025-04-17 13:50:53,297 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-44
+2025-04-17 13:50:53,297 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-44
+2025-04-17 13:50:53,305 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-44
+2025-04-17 13:50:53,307 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-44
+2025-04-17 13:50:53,307 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-44
+2025-04-17 13:50:53,386 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-45
+2025-04-17 13:50:53,397 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-45
+2025-04-17 13:50:53,397 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-45
+2025-04-17 13:50:53,406 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-45
+2025-04-17 13:50:53,407 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-45
+2025-04-17 13:50:53,408 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-45
+2025-04-17 13:50:53,486 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-46
+2025-04-17 13:50:53,495 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-46
+2025-04-17 13:50:53,495 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-46
+2025-04-17 13:50:53,501 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-46
+2025-04-17 13:50:53,503 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-46
+2025-04-17 13:50:53,503 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-46
+2025-04-17 13:50:53,587 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-47
+2025-04-17 13:50:53,595 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-47
+2025-04-17 13:50:53,595 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-47
+2025-04-17 13:50:53,605 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-47
+2025-04-17 13:50:53,607 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-47
+2025-04-17 13:50:53,607 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-47
+2025-04-17 13:50:53,687 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-48
+2025-04-17 13:50:53,699 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-48
+2025-04-17 13:50:53,699 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-48
+2025-04-17 13:50:53,707 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-48
+2025-04-17 13:50:53,708 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-48
+2025-04-17 13:50:53,708 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-48
+2025-04-17 13:50:53,786 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-49
+2025-04-17 13:50:53,796 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-49
+2025-04-17 13:50:53,796 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-49
+2025-04-17 13:50:53,806 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-49
+2025-04-17 13:50:53,808 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-49
+2025-04-17 13:50:53,808 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-49
+2025-04-17 13:50:53,883 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-50
+2025-04-17 13:50:53,890 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-50
+2025-04-17 13:50:53,890 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-50
+2025-04-17 13:50:53,905 INFO o.a.j.t.JMeterThread: Thread started: Scenario 2 - Rent Cars 2-50
+2025-04-17 13:50:53,906 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 2 - Rent Cars 2-50
+2025-04-17 13:50:53,906 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 2 - Rent Cars 2-50
+2025-04-17 13:50:53,986 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-51
+2025-04-17 13:50:53,991 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-51
+2025-04-17 13:50:53,991 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-51
+2025-04-17 13:50:54,086 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-52
+2025-04-17 13:50:54,092 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-52
+2025-04-17 13:50:54,092 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-52
+2025-04-17 13:50:54,186 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-53
+2025-04-17 13:50:54,194 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-53
+2025-04-17 13:50:54,194 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-53
+2025-04-17 13:50:54,287 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-54
+2025-04-17 13:50:54,301 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-54
+2025-04-17 13:50:54,301 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-54
+2025-04-17 13:50:54,387 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-55
+2025-04-17 13:50:54,397 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-55
+2025-04-17 13:50:54,397 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-55
+2025-04-17 13:50:54,487 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-56
+2025-04-17 13:50:54,500 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-56
+2025-04-17 13:50:54,500 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-56
+2025-04-17 13:50:54,586 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-57
+2025-04-17 13:50:54,599 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-57
+2025-04-17 13:50:54,599 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-57
+2025-04-17 13:50:54,681 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-58
+2025-04-17 13:50:54,688 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-58
+2025-04-17 13:50:54,688 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-58
+2025-04-17 13:50:54,786 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-59
+2025-04-17 13:50:54,794 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-59
+2025-04-17 13:50:54,794 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-59
+2025-04-17 13:50:54,882 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-60
+2025-04-17 13:50:54,893 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-60
+2025-04-17 13:50:54,894 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-60
+2025-04-17 13:50:54,987 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-61
+2025-04-17 13:50:55,000 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-61
+2025-04-17 13:50:55,000 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-61
+2025-04-17 13:50:55,086 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-62
+2025-04-17 13:50:55,098 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-62
+2025-04-17 13:50:55,098 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-62
+2025-04-17 13:50:55,187 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-63
+2025-04-17 13:50:55,192 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-63
+2025-04-17 13:50:55,192 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-63
+2025-04-17 13:50:55,287 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-64
+2025-04-17 13:50:55,297 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-64
+2025-04-17 13:50:55,297 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-64
+2025-04-17 13:50:55,386 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-65
+2025-04-17 13:50:55,396 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-65
+2025-04-17 13:50:55,396 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-65
+2025-04-17 13:50:55,486 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-66
+2025-04-17 13:50:55,495 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-66
+2025-04-17 13:50:55,496 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-66
+2025-04-17 13:50:55,586 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-67
+2025-04-17 13:50:55,598 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-67
+2025-04-17 13:50:55,598 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-67
+2025-04-17 13:50:55,686 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-68
+2025-04-17 13:50:55,698 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-68
+2025-04-17 13:50:55,699 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-68
+2025-04-17 13:50:55,786 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-69
+2025-04-17 13:50:55,797 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-69
+2025-04-17 13:50:55,797 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-69
+2025-04-17 13:50:55,887 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-70
+2025-04-17 13:50:55,896 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-70
+2025-04-17 13:50:55,896 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-70
+2025-04-17 13:50:55,987 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-71
+2025-04-17 13:50:56,000 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-71
+2025-04-17 13:50:56,000 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-71
+2025-04-17 13:50:56,086 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-72
+2025-04-17 13:50:56,097 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-72
+2025-04-17 13:50:56,097 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-72
+2025-04-17 13:50:56,184 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-73
+2025-04-17 13:50:56,194 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-73
+2025-04-17 13:50:56,194 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-73
+2025-04-17 13:50:56,282 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-74
+2025-04-17 13:50:56,290 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-74
+2025-04-17 13:50:56,291 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-74
+2025-04-17 13:50:56,386 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-75
+2025-04-17 13:50:56,396 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-75
+2025-04-17 13:50:56,397 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-75
+2025-04-17 13:50:56,485 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-76
+2025-04-17 13:50:56,492 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-76
+2025-04-17 13:50:56,492 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-76
+2025-04-17 13:50:56,587 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-77
+2025-04-17 13:50:56,597 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-77
+2025-04-17 13:50:56,597 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-77
+2025-04-17 13:50:56,687 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-78
+2025-04-17 13:50:56,699 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-78
+2025-04-17 13:50:56,700 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-78
+2025-04-17 13:50:56,788 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-79
+2025-04-17 13:50:56,800 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-79
+2025-04-17 13:50:56,800 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-79
+2025-04-17 13:50:56,887 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-80
+2025-04-17 13:50:56,898 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-80
+2025-04-17 13:50:56,898 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-80
+2025-04-17 13:50:56,986 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-81
+2025-04-17 13:50:56,998 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-81
+2025-04-17 13:50:56,998 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-81
+2025-04-17 13:50:57,086 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-82
+2025-04-17 13:50:57,090 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-82
+2025-04-17 13:50:57,090 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-82
+2025-04-17 13:50:57,186 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-83
+2025-04-17 13:50:57,192 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-83
+2025-04-17 13:50:57,193 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-83
+2025-04-17 13:50:57,287 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-84
+2025-04-17 13:50:57,298 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-84
+2025-04-17 13:50:57,298 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-84
+2025-04-17 13:50:57,386 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-85
+2025-04-17 13:50:57,396 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-85
+2025-04-17 13:50:57,396 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-85
+2025-04-17 13:50:57,486 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-86
+2025-04-17 13:50:57,496 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-86
+2025-04-17 13:50:57,496 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-86
+2025-04-17 13:50:57,587 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-87
+2025-04-17 13:50:57,599 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-87
+2025-04-17 13:50:57,599 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-87
+2025-04-17 13:50:57,687 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-88
+2025-04-17 13:50:57,697 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-88
+2025-04-17 13:50:57,697 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-88
+2025-04-17 13:50:57,787 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-89
+2025-04-17 13:50:57,797 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-89
+2025-04-17 13:50:57,797 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-89
+2025-04-17 13:50:57,886 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-90
+2025-04-17 13:50:57,897 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-90
+2025-04-17 13:50:57,897 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-90
+2025-04-17 13:50:57,986 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-91
+2025-04-17 13:50:57,992 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-91
+2025-04-17 13:50:57,992 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-91
+2025-04-17 13:50:58,082 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-92
+2025-04-17 13:50:58,086 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-92
+2025-04-17 13:50:58,086 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-92
+2025-04-17 13:50:58,185 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-93
+2025-04-17 13:50:58,189 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-93
+2025-04-17 13:50:58,189 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-93
+2025-04-17 13:50:58,286 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-94
+2025-04-17 13:50:58,297 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-94
+2025-04-17 13:50:58,297 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-94
+2025-04-17 13:50:58,386 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-95
+2025-04-17 13:50:58,397 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-95
+2025-04-17 13:50:58,397 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-95
+2025-04-17 13:50:58,487 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-96
+2025-04-17 13:50:58,501 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-96
+2025-04-17 13:50:58,501 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-96
+2025-04-17 13:50:58,587 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-97
+2025-04-17 13:50:58,597 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-97
+2025-04-17 13:50:58,597 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-97
+2025-04-17 13:50:58,686 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-98
+2025-04-17 13:50:58,697 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-98
+2025-04-17 13:50:58,697 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-98
+2025-04-17 13:50:58,786 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-99
+2025-04-17 13:50:58,796 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-99
+2025-04-17 13:50:58,796 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-99
+2025-04-17 13:50:58,886 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 - Get All Cars 1-100
+2025-04-17 13:50:58,897 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 - Get All Cars 1-100
+2025-04-17 13:50:58,898 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 - Get All Cars 1-100
+2025-04-17 13:50:58,898 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2025-04-17 13:50:58,901 INFO o.a.j.r.Summariser: summary =    710 in 00:00:10 =   71.5/s Avg:     1 Min:     0 Max:    42 Err:   210 (29.58%)
+2025-04-17 13:50:58,902 INFO o.a.j.JMeter: Generating Dashboard
+2025-04-17 13:50:58,902 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2025-04-17 13:50:58,919 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2025-04-17 13:50:59,043 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2025-04-17 13:50:59,043 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2025-04-17 13:50:59,044 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2025-04-17 13:50:59,045 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2025-04-17 13:50:59,048 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2025-04-17 13:50:59,050 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2025-04-17 13:50:59,051 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2025-04-17 13:50:59,051 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2025-04-17 13:50:59,064 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2025-04-17 13:50:59,064 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2025-04-17 13:50:59,064 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2025-04-17 13:50:59,064 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2025-04-17 13:50:59,069 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2025-04-17 13:50:59,069 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 4970 samples
+2025-04-17 13:50:59,069 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2025-04-17 13:50:59,069 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2025-04-17 13:50:59,070 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2025-04-17 13:50:59,070 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2025-04-17 13:50:59,070 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2025-04-17 13:50:59,070 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2025-04-17 13:50:59,070 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2025-04-17 13:50:59,070 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2025-04-17 13:50:59,070 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2025-04-17 13:50:59,070 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2025-04-17 13:50:59,070 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 10650 samples
+2025-04-17 13:50:59,070 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 2130 samples
+2025-04-17 13:50:59,070 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 710 samples
+2025-04-17 13:50:59,071 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 710 samples produced in 114ms on channel 0
+2025-04-17 13:50:59,071 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2025-04-17 13:50:59,110 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2025-04-17 13:50:59,110 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2025-04-17 13:50:59,110 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2025-04-17 13:50:59,110 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2025-04-17 13:50:59,111 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to /Users/antocreadev/Developer/carental/jm-report/statistics.json
+2025-04-17 13:50:59,130 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2025-04-17 13:50:59,131 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: /Users/antocreadev/Developer/carental/jm-report
+2025-04-17 13:50:59,189 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: /Users/antocreadev/Developer/carental/jm-report, creating folder structure
+2025-04-17 13:50:59,191 INFO o.a.j.r.d.TemplateVisitor: Copying folder from '/opt/homebrew/Cellar/jmeter/5.6.3/libexec/bin/report-template' to '/Users/antocreadev/Developer/carental/jm-report', got message: /Users/antocreadev/Developer/carental/jm-report, found non empty folder with following content [/Users/antocreadev/Developer/carental/jm-report/statistics.json], will be ignored
+2025-04-17 13:50:59,327 INFO o.a.j.JMeter: Dashboard generated
