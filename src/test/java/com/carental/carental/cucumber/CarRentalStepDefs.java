@@ -1,16 +1,19 @@
 package com.carental.carental.cucumber;
 
-import com.carental.carental.domain.Car;
-import com.carental.carental.repository.CarRepository;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.context.SpringBootTest;
-import io.cucumber.java.fr.*;
-
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+import org.springframework.beans.factory.annotation.Autowired;
 
-@SpringBootTest
+import com.carental.carental.domain.Car;
+import com.carental.carental.repository.CarRepository;
+
+import io.cucumber.java.fr.Alors;
+import io.cucumber.java.fr.Quand;
+import io.cucumber.java.fr.Étantdonné;
+
 public class CarRentalStepDefs {
 
     @Autowired
