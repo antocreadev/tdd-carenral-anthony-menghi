@@ -1,5 +1,16 @@
-Feature: Rent a car
-  Scenario: Successful car rental
-    Given a car with registration number "ABC123" is available
-    When I rent the car with registration number "ABC123"
-    Then the car should no longer be available
+Feature: Gestion de location de voitures
+
+  Scenario: Lister toutes les voitures disponibles
+    Given des voitures sont disponibles
+    When je demande la liste des voitures
+    Then toutes les voitures sont affichées
+
+  Scenario: Louer une voiture avec succès
+    Given une voiture est disponible
+    When je loue cette voiture
+    Then la voiture n'est plus disponible
+
+  Scenario: Retourner une voiture
+    Given une voiture est louée
+    When je retourne cette voiture
+    Then la voiture est marquée comme disponible
